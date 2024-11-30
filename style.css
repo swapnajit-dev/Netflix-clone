@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:black;
+}
+
+.main{
+    background-image: url(image/bg.jpg);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.box{
+    height: 100vh;
+    opacity: 0.54;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top:0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    max-width: 80vw;
+    height: 50px;
+    width: 1300px;
+}
+.main img{
+    height:150px;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+.buttons{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 20px;
+}
+.font1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+}
+.font2{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+.line{
+    height:7px;
+    background-color: rgba(128, 128, 128, 0.188);
+}
+.btn{
+    padding: 3px 8px;
+    background-color:rgba(253, 245, 245, 0.029);
+    font-weight: bold;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color:white;
+}
+.btn-red2{
+    background-color: red;
+    color:white;
+    border-radius: 4px;
+    border: none;
+    font-size:30px ;
+    padding: 3px 24px;
+}
+.main input{
+    text-align:justify;
+    font-size:15px ;
+    padding:15px 102px 5px 14px;
+    align-items: center;
+    background-color: rgba(23,23,23,0.7);
+    border-radius: 4px;
+    border: 1px solid rgba(246,238,238,0.5);
+    color: white;
+}
+.first{
+    display: flex;
+    width: 100vw;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p1{
+    font-size:3rem ;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 100px;
+}
+.p2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+secimg video{
+    position: absolute;
+}
+secimg img{
+    position: relative;
+    width:
+}
